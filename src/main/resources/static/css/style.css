@@ -1,0 +1,135 @@
+.flex-container {
+    margin: 0 auto;
+}
+
+.header {
+	font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: var(--leading-base);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--color-base);
+    background-color: var(--color-white);
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.top {
+	position: relative;
+	background: #e2ada7;
+	color: white;
+}
+
+.topping {
+	width: 100%;
+    max-width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -16px;
+    margin-right: -16px;
+    overflow: hidden;
+    min-height: 44px;
+}
+
+.navbar {
+	background: #edd2d1;
+	color: black;
+}
+
+.box {
+	position: static;
+    display: flex;
+    flex-grow: 1;
+}
+
+.category {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 1.25;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.space {
+	position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: 1;
+    width: 100%;
+}
+
+.viewButton {
+	box-shadow: 5px 5px 5px 2px #e2ada7;
+	border: 1px solid #e2ada7;
+}
+
+.searchButton {
+	box-shadow: 5px 5px 5px 2px #e2ada7;
+	border: 1px solid #e2ada7;
+	align-items: right;
+}
+
+.optionButton {
+	background-color:  #edd2d1;
+}
+
+.card {
+	width: 200px;
+}
+
+.card-header{
+	background: #edd2d1;
+}
+
+.registerbackground {
+	background-color: hsl(2, 44%, 61%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(2, 44%, 87%) 15%,
+        hsl(2, 44%, 72%) 35%,
+        hsl(2, 44%, 62%) 75%,
+        hsl(2, 44%, 61%) 80%,
+        transparent 100%),
+        radial-gradient(1250px circle at 100% 100%,
+        hsl(2, 44%, 87%) 15%,
+        hsl(2, 44%, 72%) 35%,
+        hsl(2, 44%, 62%) 75%,
+        hsl(2, 44%, 61%) 80%,
+        transparent 100%);
+}
+
+.registercard {
+	background-color: hsla(0, 0%, 100%, 0.9) !important;
+            backdrop-filter: saturate(200%) blur(25px);
+}
+
+.btn-search {
+	background-color: #edd2d1;
+}
+
+.optionbutton {
+	background-color:  #e2ada7;
+	
+}
+
+.dropdown, .navbar-nav {
+	position: relative;
+}
+
+.dropdown-menu {
+	position: absolute;
+	z-index: auto;
+}
